@@ -3,7 +3,18 @@
 #В последующих  строках записаны N целых чисел Ai. Последняя строка содержит число X
 #*Пример:* 5 1 2 3 4   3 ->1
 
-N = abs(int(input('Введите количество элементов списка А: ')))
+N = abs(int(input('Введите первый эллемент: ')))
+list_2 = []
+max = 10
+min = 6
+# for i in range(len(lst_1)):
+#     if list_1[i] >= min and list_1[i] <= max:
+#         list_2.append(i)
+# print(list_2)
+# или
+for i in range(len(list_1)):
+    if min <= list_1[i] <= max:
+        print(i, end=' ') 
 from random import randint
 randlist = []
 for i in range(N):
